@@ -1,0 +1,12 @@
+button {
+    height: 30px;
+    width: 30px;
+    outline: none;
+    display: block;
+    background-color: #ccc;;
+    border: none;
+    margin: 0 auto;
+}
+button:focus {
+    outline: none;
+}

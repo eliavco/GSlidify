@@ -1,0 +1,25 @@
+button {
+    height: 30px;
+    width: 30px;
+    outline: none;
+    display: block;
+    background-color: indigo;
+    border: none;
+    margin: 0 auto;
+}
+button:focus {
+    outline: none;
+}
+input {
+    height: 30px;
+    width: 300px;
+    border: none;
+    background-color: blanchedalmond;
+    margin-bottom: 13px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input:focus {
+    outline: none;
+    background-color: #fff;
+}
