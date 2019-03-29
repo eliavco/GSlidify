@@ -13,5 +13,5 @@ document.addEventListener('DOMContentLoaded', () => {
         color: 'indigo'
     }, function(items) {
         document.getElementById('select').value = items.color;
-    });
+    }); // Hello World
 });
