@@ -1,12 +1,15 @@
 button {
     height: 30px;
-    width: 30px;
+    width: 300px;
     outline: none;
     display: block;
     background-color: #ccc;;
     border: none;
-    margin: 0 auto;
+    margin: 15px 0;
 }
 button:focus {
     outline: none;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

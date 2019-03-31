@@ -11,7 +11,17 @@
     },
     "options_page": "options.html",
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+          "matches": [
+            "<all_urls>"
+          ],
+          "js": ["jquery.js", "content.js"],
+          "run_at": "document_end"
+        }
     ],
     "icons": {
         "16":  "icons/presentation16.png",
